@@ -45,14 +45,7 @@ Esta aplicación permite:
 ✅ Procesar y mostrar estadísticas detalladas de jugadores y equipos.
 ✅ Gestionar la información a través de clases especializadas.
 
----
 
-## 🏆 Autor
-**Taller de Refuerzos** ha sido desarrollado con el objetivo de optimizar la administración de datos de equipos y jugadores mediante el uso de **Java y JSON**.
 
-📌 Para más información, consulta la documentación o contacta con el desarrollador.
 
----
-
-📌 *Este documento está sujeto a modificaciones para mejorar su funcionalidad y precisión.*
 
