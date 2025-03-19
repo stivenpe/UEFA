@@ -37,27 +37,7 @@ Para ejecutar el proyecto, asegúrate de contar con los siguientes requisitos:
 ## 🚀 Instalación y Ejecución
 Sigue estos pasos para configurar y ejecutar el proyecto:
 
-### 🔧 1. Clonar el repositorio:
-```sh
- git clone <URL_DEL_REPOSITORIO>
-```
 
-### 🔧 2. Navegar al directorio del proyecto:
-```sh
- cd taller_de_refuers
-```
-
-### 🔧 3. Compilar el proyecto con Maven:
-```sh
- mvn clean install
-```
-
-### 🔧 4. Ejecutar la aplicación:
-```sh
- java -cp target/classes com.taller_de_refuers.Main
-```
-
----
 
 ## 🎯 Funcionalidad Principal
 Esta aplicación permite:
