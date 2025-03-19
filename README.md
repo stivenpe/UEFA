@@ -1,0 +1,78 @@
+# 📌 Taller de Refuerzos
+
+## 📖 Descripción del Proyecto
+Taller de Refuerzos es una aplicación desarrollada en **Java** que permite la gestión eficiente de información sobre equipos y jugadores mediante archivos **JSON**. El proyecto se basa en **Maven** para la gestión de dependencias, facilitando su mantenimiento y escalabilidad.
+
+---
+
+## 📂 Estructura del Proyecto
+El proyecto está organizado en las siguientes secciones:
+
+### 🔹 1. Código Fuente (`src/main/java/com/taller_de_refuers/`)
+Contiene las clases principales de la aplicación:
+
+- **Equipo.java** → Define la estructura de un equipo con sus atributos y métodos.
+- **Estadisticas.java** → Gestiona estadísticas de equipos y jugadores.
+- **Jugador.java** → Representa a un jugador con sus características específicas.
+- **LectorJSON.java** → Permite la lectura y procesamiento de datos desde archivos JSON.
+- **Main.java** → Punto de entrada de la aplicación.
+- **ProcesadorEquipos.java** → Procesa la información de los equipos y genera análisis.
+- **RespuestaEquipos.java** → Gestiona las respuestas relacionadas con los equipos.
+
+### 🔹 2. Recursos (`src/main/resources/`)
+- **equipo.json** → Archivo JSON con la información de los equipos.
+
+### 🔹 3. Configuración (`pom.xml`)
+- Contiene las dependencias y configuraciones necesarias para la compilación y ejecución con **Maven**.
+
+---
+
+## ⚙️ Requisitos del Sistema
+Para ejecutar el proyecto, asegúrate de contar con los siguientes requisitos:
+- **Java 8 o superior**
+- **Apache Maven** para la gestión de dependencias
+
+---
+
+## 🚀 Instalación y Ejecución
+Sigue estos pasos para configurar y ejecutar el proyecto:
+
+### 🔧 1. Clonar el repositorio:
+```sh
+ git clone <URL_DEL_REPOSITORIO>
+```
+
+### 🔧 2. Navegar al directorio del proyecto:
+```sh
+ cd taller_de_refuers
+```
+
+### 🔧 3. Compilar el proyecto con Maven:
+```sh
+ mvn clean install
+```
+
+### 🔧 4. Ejecutar la aplicación:
+```sh
+ java -cp target/classes com.taller_de_refuers.Main
+```
+
+---
+
+## 🎯 Funcionalidad Principal
+Esta aplicación permite:
+✅ Cargar datos de equipos desde un archivo JSON.
+✅ Procesar y mostrar estadísticas detalladas de jugadores y equipos.
+✅ Gestionar la información a través de clases especializadas.
+
+---
+
+## 🏆 Autor
+**Taller de Refuerzos** ha sido desarrollado con el objetivo de optimizar la administración de datos de equipos y jugadores mediante el uso de **Java y JSON**.
+
+📌 Para más información, consulta la documentación o contacta con el desarrollador.
+
+---
+
+📌 *Este documento está sujeto a modificaciones para mejorar su funcionalidad y precisión.*
+
